@@ -22,7 +22,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 main,
 section,
@@ -533,12 +532,13 @@ pre tt:after {
   color: var(--primary-color);
 }
 
-.navbar-brand .navbar-item.logo {
+.navbar-brand .navbar-item .logo {
   padding: 0 1rem;
 }
 
-footer.footer {
-  padding: 3rem 0rem 0rem;
+footer .footer {
+  padding: 3rem 1rem 1rem;
+  background-color: transparent;
 }
 
 .menu-label {

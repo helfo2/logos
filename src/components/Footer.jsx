@@ -58,6 +58,13 @@ const Footer = () => {
 						</a>
 					</div>
 				</div>
+				<div style={{ color: "var(--primary-color)"}}>
+						© {new Date().getFullYear()}, Built with
+						{` `}
+						<a href="https://www.gatsbyjs.com">Gatsby</a>
+						{` `}
+						by Henrique Ferreira
+					</div>
 			</div>
 		</footer>
 	)
