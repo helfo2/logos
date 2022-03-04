@@ -3,6 +3,7 @@
 :root {
   --primary-color: #808080;
   --light: #fff;
+  font-size: medium;
 }
 
 html {
@@ -536,9 +537,13 @@ pre tt:after {
   padding: 0 1rem;
 }
 
-footer .footer {
+.footer {
   padding: 3rem 1rem 1rem;
   background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  height: 30rem;
+  width: 100%;
 }
 
 .menu-label {

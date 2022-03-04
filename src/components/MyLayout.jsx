@@ -31,10 +31,13 @@ const Layout = ({ children }) => {
             content={`${withPrefix("/")}img/og-image.jpg`}
           />
       </Helmet>
+      <div style={{ position: 'relative', minHeight: '100vh'}}>
       {/* <Header siteTitle={title || `Title`} /> */}
       <Navbar />
-      <div>{children}</div>
+      <div style={{ paddingBottom: '30rem' }}>{children}
       <Footer />
+      </div>
+      </div>
     </div>
   )
 }

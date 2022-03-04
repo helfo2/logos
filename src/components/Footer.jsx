@@ -1,6 +1,5 @@
 import React from "react"
 import linkedinIcon from "../images/linkedin-icon.svg"
-import githubIcon from "../images/github-icon.svg"
 import { Link } from "gatsby"
 
 const Footer = () => {

@@ -1,7 +1,7 @@
 import React from "react"
 import { kebabCase } from "lodash"
 import { graphql, Link } from "gatsby"
-import Layout from "../components/Layout"
+import Layout from "../components/MyLayout"
 import { Helmet } from "react-helmet";
 
 export const BlogPostTemplate = ({
